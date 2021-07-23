@@ -1094,27 +1094,29 @@ h4 {
   line-height: 1.5;
   letter-spacing: 0px;
 }
+
+.moto-text_228.white {
+  color: #fff;
+}
+
 .moto-widget-text ul li.moto-text_228 {
   margin-bottom: 4px;
   padding-left: 24px;
 }
 .moto-widget-text ul li.moto-text_228:before {
+  position: absolute;
   top: 50%;
   transform: translate(0,-50%);
-  content: "\f111";
-  border-style: none;
-  border-left-width: 0px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-radius: 0px;
+  content: "";
+  border-radius: 50%;
+  border: 1px solid #09b28a;
   font-size: 8px;
-  width: 14px;
-  height: 14px;
+  width: 7px;
+  height: 7px;
   color: #09b28a;
-  background-color: transparent;
-  border-color: transparent;
+  background-color: #09b28a;
 }
+
 .moto-widget-text ol li.moto-text_228 {
   margin-bottom: 3px;
   padding-left: 20px;
@@ -1727,6 +1729,11 @@ h4 {
   line-height: 1.2;
   letter-spacing: 0px;
 }
+
+.moto-text_202.white {
+  color: #fff;
+}
+
 .moto-widget-text ul li.moto-text_202 {
   margin-bottom: 3px;
   padding-left: 24px;
@@ -3492,7 +3499,7 @@ h4 {
   }
 }
 .moto-widget-menu.moto-preset-default .moto-widget-menu-list >.moto-widget-menu-item:not(:first-child) {
-  margin-left: 33px;
+  margin-left: 15px;
 }
 @media screen and (max-width: 1039px) {
   .moto-widget-menu.moto-preset-default .moto-widget-menu-list >.moto-widget-menu-item:not(:first-child) {
