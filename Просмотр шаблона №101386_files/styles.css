@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.moto-main-background {
+  background: url(../images/main.png) center center no-repeat;
+  background-size: contain;
+}
 .moto-color1 {
   color: #09b28a;
 }
@@ -1189,6 +1193,9 @@ h4 {
   font-size: 22px;
   line-height: 1.2;
   letter-spacing: 0px;
+}
+.moto-text_226.white {
+  color: #fff;
 }
 .moto-widget-text ul li.moto-text_226 {
   margin-bottom: 3px;
@@ -2739,6 +2746,9 @@ h4 {
   line-height: 1.3;
   letter-spacing: 0px;
   text-shadow: 1px 1px 0px #f3c600;
+}
+.moto-text_system_7.white {
+  color: #fff;
 }
 .moto-widget-text ul li.moto-text_system_7 {
   margin-bottom: 3px;
@@ -4339,7 +4349,15 @@ h4 {
   background: #233341;
 }
 .moto-back-to-top-button .moto-back-to-top-button-link .moto-back-to-top-button-icon:before {
-  content: "\f106";
+  background: url(../images/up.svg) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .moto-widget-accordion.moto-preset-default .moto-widget-accordion__header {
   padding: 13px 0;
