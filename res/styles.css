@@ -225,53 +225,25 @@
 }
 .dropdown {
   position: relative;
+  top: 1px;
   display: inline-block;
-  padding: 0 25px;
-  padding-top: 15px;
   z-index: 100;
-  font-size: 16px;
+  font-size: 17px;
   color: #fff;
-  font-weight: bold;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-
-  font-weight: normal;
-}
-
 .dropbtn
 {
-  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
-  padding-left: 25px;
+  color: #fff;
 }
-
-.dropdown-content a:first-child
-{
-  margin-left: 5px;
-  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+.dropbtn_active{
+  font-weight: bold;
 }
-
-.dropdown-content a:last-child
-{
-  margin-left: 5px;
-  background: url('https://icons.iconarchive.com/icons/famfamfam/flag/16/ua-icon.png') no-repeat left center;
+.dropbtn:visited{
+  color: #fff;
 }
-
-.dropdown-content a {
-  color: black;
-  padding: 5px 20px;
-  text-decoration: none;
-  display: block;
+.dropbtn:hover{
+  color: #fff;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 @media screen and (min-width: 1039px) {
   .moto-parallax,
   .moto-background-fixed {
