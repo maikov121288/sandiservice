@@ -219,6 +219,31 @@
 .mw-200{
   max-width: 200px;
 }
+.dropbtn {
+  padding: 5px;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  z-index: 100;
+  font-size: 17px;
+  color: #fff;
+}
+.dropbtn
+{
+  color: #fff;
+}
+.dropbtn_active{
+  font-weight: bold;
+}
+.dropbtn:visited{
+  color: #fff;
+}
+.dropbtn:hover{
+  color: #fff;
+}
 @media screen and (min-width: 1039px) {
   .moto-parallax,
   .moto-background-fixed {
@@ -1269,6 +1294,9 @@ h4 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0px;
+  }
+  .moto-widget-completion_bar_circular__wrapper .moto-text_226{
+    font-size: 16px;
   }
 }
 @media (max-width: 479px) {
