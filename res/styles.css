@@ -540,7 +540,6 @@ h4 {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0px;
-  text-shadow: 1px 1px 0px #233341;
 }
 .moto-widget-text ul li.moto-text_264 {
   margin-bottom: 4px;
@@ -4867,7 +4866,7 @@ h4 {
   background-color: #ffffff;
   font-style: normal;
   font-weight: 400;
-  border-color: #ffffff;
+  border-color: #324063;
 }
 .moto-widget-contact_form.moto-preset-default .moto-widget-contact_form-form .moto-widget-contact_form-field.ng-touched.ng-invalid {
   color: #324063;
@@ -5071,6 +5070,10 @@ h4 {
   background-color: #324063;
 }
 @media screen and (max-width: 767px) {
+  [data-widget-id='wid_1588677742_j6kb0ty0z'], [data-widget-id='wid_1588682266_3wj8dorsc'], [data-spacing="sasa"]{
+    text-align: center;
+  }
+
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-toggle-btn {
     color: #ffffff;
     background-color: #324063;
