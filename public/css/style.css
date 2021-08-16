@@ -4361,7 +4361,7 @@ h4 {
     }
 }
 .moto-back-to-top-button {
-    right: 40px;
+    right: 22.5px;
     bottom: -50px;
     transition: .3s;
 }
@@ -4371,9 +4371,7 @@ h4 {
     }
 }
 @media screen and (max-width: 767px) {
-    .moto-back-to-top-button {
-        right: 10px;
-    }
+
 }
 .moto-back-to-top-button.moto-back-to-top-button_visible {
     bottom: 40px;
@@ -8408,4 +8406,41 @@ h4 {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.b24-widget-button-position-bottom-right {
+    right: 20px !important;
+    bottom: 110px !important;
+}
+
+.bx-livechat-position-bottom-right, .b24-window-widget-p-bottom-right{
+    bottom: 190px !important;
+}
+
+@media (max-width: 1040px) {
+    .b24-widget-button-position-bottom-right {
+        right: 17.5px !important;
+        bottom: 60px !important;
+    }
+    .b24-widget-button-block{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .b24-widget-button-inner-block {
+        height: 50px !important;
+    }
+    .b24-widget-button-inner-mask{
+        height: 70px !important;
+    }
+    .b24-widget-button-social-item{
+        margin: 0 3px 5px 0 !important;
+    }
+
+    .bx-livechat-position-bottom-right, .b24-window-widget-p-bottom-right{
+        bottom: 130px !important;
+        right:  20px !important;
+    }
+}
+@media screen and (max-width: 767px){
+
 }

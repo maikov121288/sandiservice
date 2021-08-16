@@ -1168,46 +1168,15 @@
 <div data-moto-back-to-top-button="" class="moto-back-to-top-button animated">
     <a href = "#" class="moto-back-to-top-button-link"> <span class="moto-back-to-top-button-icon fa"></span> </a>
 </div>
-<div data-moto-widget-callback="" class="moto-widget-callback moto-widget-callback_closed moto-preset-default">
-    <div class="moto-widget-callback__wrapper">
-        <div class="moto-widget-callback__open-button moto-widget-callback__thumbnail-wrapper moto-widget-callback__thumbnail-wrapper_icon">
-            <div class="moto-widget-callback__overlay moto-widget-callback__overlay_open-button"> </div>
-            <div class="moto-widget-callback__thumbnail moto-widget-callback__thumbnail_icon fa fa-fw fa-phone-alt"> </div>
-        </div>
-        <div class="moto-widget-callback__body moto-widget-callback__body_more-details-enabled" style="display: none;">
-            <div class="moto-widget-callback__description moto-widget-text">
-                <p class="moto-text_system_2" style="text-align: center;"> Техническая поддержка </p>
-                <p class="moto-text_system_9" style="text-align: center;"> <a class="moto-link" data-action="call" href="tel:0800212008"><span class="fa"></span> 0-800-212-008</a> </p>
-                <p class="moto-text_system_2 moto-spacing-top-small" style="text-align: center;"> Сервисная поддержка </p>
-                <p class="moto-text_system_9" style="text-align: center;"> <a class="moto-link" data-action="call" href="tel:0800210247"><span class="fa"></span> 0-800-210-247</a> </p>
-            </div>
-            <div class="moto-widget-callback__more-details-wrapper">
-                <hr class="moto-widget-callback__more-details-divider">
-                <div class="moto-widget-callback__more-details">
-                    <div class="moto-widget-callback__more-details-item">
-                        <div class="moto-widget-callback__overlay moto-widget-callback__overlay_link"> </div>
-                        <a href="https://t.me/#" class="moto-widget-callback__link moto-widget-callback__link-telegram_chat" title="Telegram" target="_blank"></a>
-                    </div>
-                    <div class="moto-widget-callback__more-details-item">
-                        <div class="moto-widget-callback__overlay moto-widget-callback__overlay_link"> </div>
-                        <a href="https://wa.me/#" class="moto-widget-callback__link moto-widget-callback__link-whatsapp_chat" title="WhatsApp" target="_blank"></a>
-                    </div>
-                    <div class="moto-widget-callback__more-details-item">
-                        <div class="moto-widget-callback__overlay moto-widget-callback__overlay_link"> </div>
-                        <a href="viber://pa/info?uri=#" class="moto-widget-callback__link moto-widget-callback__link-viber_public_account" title="Viber" target="_blank"></a>
-                    </div>
-                    <div class="moto-widget-callback__more-details-item">
-                        <div class="moto-widget-callback__overlay moto-widget-callback__overlay_link"> </div>
-                        <a href="https://m.me/#" class="moto-widget-callback__link moto-widget-callback__link-fb_messenger_chat" title="Facebook Messenger" target="_blank"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="moto-widget-callback__close-button"> × </div>
-        </div>
-    </div>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="{{ asset('./js/script.js') }}"></script>
+<script>
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://sandi.com.ua/upload/crm/site_button/loader_2_s7bdpb.js');
+</script>
+
 
 @endsection
