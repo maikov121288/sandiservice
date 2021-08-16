@@ -1165,8 +1165,8 @@
 </div>
 </section>
 </div>
-<div data-moto-back-to-top-button="" class="moto-back-to-top-button animated moto-back-to-top-button_visible">
-    <a ng-click="toTop($event)" class="moto-back-to-top-button-link"> <span class="moto-back-to-top-button-icon fa"></span> </a>
+<div data-moto-back-to-top-button="" class="moto-back-to-top-button animated">
+    <a href = "#" class="moto-back-to-top-button-link"> <span class="moto-back-to-top-button-icon fa"></span> </a>
 </div>
 <div data-moto-widget-callback="" class="moto-widget-callback moto-widget-callback_closed moto-preset-default">
     <div class="moto-widget-callback__wrapper">
@@ -1207,37 +1207,7 @@
     </div>
 </div>
 
-<script src="{{ asset('js/website.assets.min.js') }}" data-cfasync="false">
-</script>
-<script data-cfasync="false">
-    var websiteConfig = websiteConfig || {};
-    websiteConfig.back_to_top_button = {
-        "topOffset": 300,
-        "animationTime": 500,
-        "type": "theme"
-    };
-    websiteConfig.popup_preferences = {
-        "loading_error_message": "The content could not be loaded."
-    };
-    websiteConfig.lazy_loading = {
-        "enabled": true
-    };
-    websiteConfig.cookie_notification = {
-        "enabled": false,
-        "content": "<p class=\"moto-text_normal\">This website uses cookies to ensure you get the best experience on our website.<\/p>",
-        "content_hash": "6610aef7f7138423e25ee33c75f23279",
-        "controls": {
-            "visible": "close,accept",
-            "accept": {
-                "label": "Got it",
-                "preset": "default",
-                "size": "medium",
-                "cookie_lifetime": 365
-            }
-        }
-    };
-    angular.module('website.plugins', []);
-</script>
-<script src="{{ asset('js/website.min.js') }}" data-cfasync="false">
-</script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="{{ asset('./js/script.js') }}"></script>
+
 @endsection
