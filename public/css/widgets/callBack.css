@@ -1,0 +1,38 @@
+.b24-widget-button-position-bottom-right {
+    right: 20px !important;
+    bottom: 110px !important;
+}
+
+.bx-livechat-position-bottom-right, .b24-window-widget-p-bottom-right{
+    bottom: 190px !important;
+}
+
+@media (max-width: 1040px) {
+    .b24-widget-button-position-bottom-right {
+        right: 17.5px !important;
+        bottom: 60px !important;
+    }
+    .b24-widget-button-block{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .b24-widget-button-inner-block {
+        height: 50px !important;
+    }
+    .b24-widget-button-inner-mask{
+        height: 70px !important;
+    }
+    .b24-widget-button-social-item{
+        margin: 0 3px 5px 0 !important;
+    }
+
+    .bx-livechat-position-bottom-right, .b24-window-widget-p-bottom-right{
+        bottom: 130px !important;
+        right:  20px !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .bx-livechat-position-bottom-right, .b24-window-widget-p-bottom-right{
+        width: 260px !important;
+    }
+}
