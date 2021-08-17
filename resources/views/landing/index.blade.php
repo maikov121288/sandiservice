@@ -319,69 +319,6 @@
                         </div>
                     </div>
                 </div>
-                <div class = "row moto-spacing-top-medium" data-container="container">
-                    <div class = "moto-cell col-12 col-sm-6 moto-spacing-top-medium">
-                        <h3 class = "moto-text_system_8" style = "color: #000">{{ __("Сourse request") }} </h3>
-                        <form style = "background-color: #324063; color: #fff; height: 250px; padding: 10px; border-radius: 10px">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dolore?
-                        </form>
-                    </div>
-                    <div class = "moto-cell col-12 col-sm-6 moto-spacing-top-medium">
-                        <h3 class = "moto-text_system_8" style = "color: #000">{{ __("Launching request") }} </h3>
-                        <form style = "background-color: #324063; color: #fff; height: 250px; padding: 10px; border-radius: 10px">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </form>
-                    </div>
-                </div>
-                <div class = "row" data-container="container">
-                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-7 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="row.column" data-container="container" data-spacing="lala" data-bg-position="left top">
-                        <div class="moto-widget moto-widget-row moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-visible-on="-" data-spacing="aaaa" style="" data-bg-position="left top">
-                            <div class="container-fluid">
-                                <div class="row" data-container="container">
-                                </div><div class="moto-widget moto-widget-row__column col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
-                                    <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-visible-on="-" data-animation="">
-                                        <div class="moto-widget-text-content moto-widget-text-editable"><h2 class="moto-text_system_6"><span class="moto-color5_5" style = "color:#324063">{{ __("Ask a question") }}</span></h2>
-                                        </div><div id="wid_1588619852_e0gjxa4me" class="moto-widget moto-widget-contact_form moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-preset="default" data-widget="contact_form" data-spacing="maaa">
-                                            <div ng-controller="widget.ContactForm.Controller" ng-init="hash = '2@eyJoIjoicnpYWG13QXVnazAzME55ZXFJMVFJOGY0cWVlcXorTE5qNzYxb0RieXVTND0iLCJpIjoidGFXT3RRVk5jcWxpYXl3akdCRWxUdz09IiwidiI6IjB4a3dmTDdlNEZzZmR0dkhIMGM2TU9CQmg1dkVKXC9oUCt2dVhnb3Ywa3hERmYwSXd6dklaUlczdEowQk1sTjRVR3dRVkN1T3daQitQa0pJbW1RQlY5Zz09In0=';actionAfterSubmission={&quot;action&quot;:&quot;none&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:&quot;&quot;};resetAfterSubmission=false">
-                                                <form id="wid_1588619852_e0gjxa4me__form" class="moto-widget-contact_form-form ng-pristine ng-invalid ng-invalid-required" role="form" name="contactForm" ng-submit="submit()" novalidate="">
-                                                    <div ng-show="sending" class="contact-form-loading ng-hide"></div>
-                                                    <div class="moto-widget-contact_form-group">
-                                                        <label for="field_name_wid_1588619852_e0gjxa4me" class="moto-widget-contact_form-label" style = "color:#324063">{{ __("Name") }}</label>
-                                                        <input type="text" class="moto-widget-contact_form-field moto-widget-contact_form-input ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="Name *" ng-blur="validate('name')" required="" ng-model-options="{ updateOn: 'blur' }" name="name" id="field_name_wid_1588619852_e0gjxa4me" ng-model="message.name">
-                                                        <!-- <span class="moto-widget-contact_form-field-error ng-hide" ng-show="contactForm.name.$invalid &amp;&amp; !contactForm.name.$pristine &amp;&amp; !contactForm.name.emailInvalid">Обязательное поле</span> -->
-                                                    </div>
-                                                    <div class="moto-widget-contact_form-group">
-                                                        <label for="field_email_wid_1588619852_e0gjxa4me" class="moto-widget-contact_form-label" style = "color:#324063">{{ __("Phone") }}</label>
-                                                        <input type="tel" class="moto-widget-contact_form-field moto-widget-contact_form-input ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="Ema"  required="" ng-model-options="{ updateOn: 'blur' }" name="email" id="field_email_wid_1588619852_e0gjxa4me" ng-model="message.email">
-                                                        <!-- <span class="moto-widget-contact_form-field-error ng-hide" ng-show="contactForm.email.$invalid &amp;&amp; !contactForm.email.$pristine &amp;&amp; !contactForm.email.emailInvalid">Обязательное поле</span> -->
-                                                        <!-- <span class="moto-widget-contact_form-field-error ng-hide" ng-show="contactForm.email.emailInvalid &amp;&amp;">Неккоректный номер</span> -->
-                                                    </div>
-                                                    <div class="moto-widget-contact_form-group">
-                                                        <label for="field_message_wid_1588619852_e0gjxa4me" class="moto-widget-contact_form-label" style = "color:#324063">{{ __("Message") }}</label>
-                                                        <textarea class="moto-widget-contact_form-field moto-widget-contact_form-textarea ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" rows="3" placeholder="Message *" ng-blur="validate('message')" required="" ng-model-options="{ updateOn: 'blur' }" name="message" id="field_message_wid_1588619852_e0gjxa4me" ng-model="message.message"></textarea>
-                                                        <!-- span class="moto-widget-contact_form-field-error ng-hide" ng-show="contactForm.message.$invalid &amp;&amp; !contactForm.message.$pristine">Обязательное поле</span> -->
-                                                    </div>
-                                                    <div class="moto-widget-contact_form-success ng-hide" ng-show="showSuccessMessage">
-                                                        Ваше письмо успешно отправлено
-                                                    </div>
-                                                    <div class="moto-widget-contact_form-danger ng-hide" ng-show="emailError">
-                                                        Извините, ваше письмо не было отправлено
-                                                    </div>
-                                                    <div class="moto-widget-contact_form-buttons">
-
-                                                        <div class="moto-widget moto-widget-button moto-preset-3 moto-preset-provider-default moto-align-right" data-preset="3" data-align="right">
-                                                            <button type="submit" class="moto-widget-button-link moto-size-medium" data-size="medium"><span class="fa moto-widget-theme-icon"></span><span class="moto-widget-button-label">{{ __("Send") }}</span></button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div></div><div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="moto-widget moto-widget-block .moto-bg-color2 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-visible-on="" data-spacing="lala" style="" data-bg-position="left top" data-draggable-disabled="">
