@@ -14,7 +14,7 @@
                                 <div class="row" data-container="container">
                                     <div class="moto-widget moto-widget-row__column   col-1   moto-cell moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="text-align: center" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
                                         <div data-widget-id="wid_1588848640_k7y13172w" class="moto-widget moto-widget-image moto-preset-default  moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="image"> <span class="moto-widget-image-link">
-                                                                                                                                                <img data-src="/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-time-icon02.png"
+                                                                                                                                                <img
                                                                                                                                                      class="moto-widget-image-picture lazyloaded" data-id="" title="" alt=""
                                                                                                                                                      src=" {{ asset('img/icons/mt-2019-header-icon02.png') }} ">
                                                                                                                                         </span> </div>

@@ -4,7 +4,7 @@
             <div class="row" data-container="container">
                 <div class="moto-widget moto-widget-row__column moto-cell col-sm-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
                     <div data-widget-id="wid_1588612157_6kl91f05d" class="moto-widget moto-widget-image moto-preset-default moto-align-left moto-align-center_mobile-h moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-small  " data-widget="image">
-                        <a href="" data-action="page" class="moto-widget-image-link moto-link"> <img data-src="/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-logo.png" class="moto-widget-image-picture lazyloaded" data-id="185" title="" alt="" src="{{ asset('img/service-white.png') }}"> </a>
+                        <a href="" data-action="page" class="moto-widget-image-link moto-link"> <img class="moto-widget-image-picture lazyloaded" data-id="185" title="" alt="" src="{{ asset('img/service-white.png') }}"> </a>
                     </div>
                 </div>
                 <div class="moto-widget moto-widget-row__column moto-cell col-sm-8 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">

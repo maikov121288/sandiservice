@@ -10,7 +10,7 @@
                                                             <div class="moto-widget-text-content moto-widget-text-editable">
                                                                 <p class="moto-text_system_11" style="text-align: right;"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
                                                                                                                                                                 <span class="moto-content-image-container">
-                                                                                                                                                                        <img class="moto-content-image" data-path="2020/05/mt-2019-header-icon02.png"
+                                                                                                                                                                        <img class="moto-content-image" 
                                                                                                                                                                              data-id="184" alt="" width="30" height="30" src="{{ asset('img/icons/mt-2019-header-icon02.png') }}">
                                                                                                                                                                 </span> </span> &nbsp; <a data-action="call" class="moto-link" href="tel:0800210247">0-800-210-247</a> </p>
                                                             </div>
@@ -21,7 +21,7 @@
                                                             <div class="moto-widget-text-content moto-widget-text-editable">
                                                                 <p class="moto-text_system_11" style="text-align: right;"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
                                                                                                                                                                 <span class="moto-content-image-container">
-                                                                                                                                                                        <img class="moto-content-image" data-path="2020/05/mt-2019-header-icon02.png"
+                                                                                                                                                                        <img class="moto-content-image"
                                                                                                                                                                              data-id="184" alt="" width="30" height="30" src="{{ asset('img/icons/mt-2019-header-icon02.png') }}">
                                                                                                                                                                 </span> </span> &nbsp; <a data-action="call" class="moto-link" href="tel:0800212008">0-800-212-008</a> </p>
                                                             </div>

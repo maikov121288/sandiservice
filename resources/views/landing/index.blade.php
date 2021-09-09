@@ -1,5 +1,6 @@
 @extends('layouts.landing')
 @section('content')
+
 <div class="page">
     <div id="section-content" class="content page-1 moto-section" data-widget="section" data-container="section">
         
@@ -10,6 +11,7 @@
         @include('landing.components.aboutSection')
         
         @include('landing.components.brandsSection')
+        
     </div>
 </div>
 
