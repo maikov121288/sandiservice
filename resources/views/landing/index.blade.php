@@ -354,9 +354,9 @@
                                                                                             <img data-src="/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-arrow.png" class="moto-widget-image-picture lazyloaded" data-id="191" title="" alt="" src="./res/mt-2019-arrow.png">
                                                                                             </span>
                                                                                             </div-->
-                                        <div data-widget-id="wid_1588618778_iiiih8s3w" class="moto-widget moto-widget-button moto-preset-2 moto-preset-provider-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="button">
+                                        <!-- <div data-widget-id="wid_1588618778_iiiih8s3w" class="moto-widget moto-widget-button moto-preset-2 moto-preset-provider-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="button">
                                             <a href="" data-action="url" class="moto-widget-button-link moto-size-medium moto-link"> <span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">{{ __("Download price") }}</span></a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
                                         <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="md" data-widget="row" data-visible-on="-" data-spacing="aaaa" style="" data-bg-position="left top">
