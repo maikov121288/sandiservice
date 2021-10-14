@@ -29,11 +29,8 @@
 @include('landing.components.toTopBtn')
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-<<<<<<< HEAD
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="{{ asset('./js/app.js') }}"></script>
-=======
-<script src="{{ asset('./js/script.js') }}"></script>
 
 {{-- old: testing --}}
 {{--<script>--}}
@@ -44,7 +41,7 @@
 {{--</script>--}}
 
 {{-- new: 06.10.21 --}}
->>>>>>> 119ffde74199c824daeab362371becdbbaf8e66e
+
 <script>
     (function(w,d,u){
         var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
