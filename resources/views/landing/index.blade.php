@@ -3,15 +3,15 @@
 
 <div class="page">
     <div id="section-content" class="content page-1 moto-section" data-widget="section" data-container="section">
-        
+
         @include('landing.components.mainSection')
-        
+
         @include('landing.components.benefits')
 
         @include('landing.components.aboutSection')
-        
+
         @include('landing.components.brandsSection')
-        
+
     </div>
 </div>
 
@@ -29,7 +29,8 @@
 @include('landing.components.toTopBtn')
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-<script src="{{ asset('./js/script.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="{{ asset('./js/app.js') }}"></script>
 
 {{-- old: testing --}}
 {{--<script>--}}

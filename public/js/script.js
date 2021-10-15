@@ -1,6 +1,4 @@
-
 //to Top
-
 const toTopBtn = document.querySelector('[data-moto-back-to-top-button]');
 const circulars = document.querySelectorAll('.moto-widget-completion_bar_circular__svg');
 

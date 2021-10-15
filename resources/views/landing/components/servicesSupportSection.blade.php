@@ -80,50 +80,50 @@
                                     </div>
                                 </div>
                                 <!--FAQ-->
-                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-visible-on="-" data-animation="">
-                                    <div class="moto-widget-text-content moto-widget-text-editable">
-                                        <h3 class="moto-text_202 white">
-                                            {{ __("FAQ") }}
-                                        </h3> </div>
-                                </div>
-                                <!--div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small
-                                                                            moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                                            data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-"
-                                                                            data-animation="" data-draggable-disabled="">
-                                                                            <div class="moto-widget-text-content moto-widget-text-editable" aria-multiline="true">
-                                                                            <p class="moto-text_normal">
-                                                                            Служба технической поддержки SANDI SERVICE предоставляет всю необходимую для клиента информацию по продукту:
-                                                                            </p>
-                                                                            </div>
-                                                                            </div-->
-                                <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-visible-on="-" data-spacing="aaaa" style="" data-bg-position="left top">
-                                    <div class="container-fluid">
-                                        <div class="row" data-container="container">
-                                            <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
-                                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
-                                                    <div class="moto-widget-text-content moto-widget-text-editable">
-                                                        <ul>
-                                                            <li class="moto-text_228 white"> <strong>
-                                                                  {{ __("FAQ(q)1") }}
-                                                                </strong>
-                                                                <ol>
-                                                                    <li> {{ __("FAQ(a)1") }} </li>
-                                                                </ol>
-                                                            </li>
-                                                            <li class="moto-text_228 white"> <strong>
-                                                                  {{ __("FAQ(q)2") }}
-                                                                </strong>
-                                                                <ol>
-                                                                    <li>   {{ __("FAQ(a)2") }} </li>
-                                                                </ol>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-visible-on="-" data-animation="">--}}
+{{--                                    <div class="moto-widget-text-content moto-widget-text-editable">--}}
+{{--                                        <h3 class="moto-text_202 white">--}}
+{{--                                            {{ __("FAQ") }}--}}
+{{--                                        </h3> </div>--}}
+{{--                                </div>--}}
+{{--                                <!--div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small--}}
+{{--                                                                            moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"--}}
+{{--                                                                            data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-"--}}
+{{--                                                                            data-animation="" data-draggable-disabled="">--}}
+{{--                                                                            <div class="moto-widget-text-content moto-widget-text-editable" aria-multiline="true">--}}
+{{--                                                                            <p class="moto-text_normal">--}}
+{{--                                                                            Служба технической поддержки SANDI SERVICE предоставляет всю необходимую для клиента информацию по продукту:--}}
+{{--                                                                            </p>--}}
+{{--                                                                            </div>--}}
+{{--                                                                            </div-->--}}
+{{--                                <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-visible-on="-" data-spacing="aaaa" style="" data-bg-position="left top">--}}
+{{--                                    <div class="container-fluid">--}}
+{{--                                        <div class="row" data-container="container">--}}
+{{--                                            <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">--}}
+{{--                                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">--}}
+{{--                                                    <div class="moto-widget-text-content moto-widget-text-editable">--}}
+{{--                                                        <ul>--}}
+{{--                                                            <li class="moto-text_228 white"> <strong>--}}
+{{--                                                                  {{ __("FAQ(q)1") }}--}}
+{{--                                                                </strong>--}}
+{{--                                                                <ol>--}}
+{{--                                                                    <li> {{ __("FAQ(a)1") }} </li>--}}
+{{--                                                                </ol>--}}
+{{--                                                            </li>--}}
+{{--                                                            <li class="moto-text_228 white"> <strong>--}}
+{{--                                                                  {{ __("FAQ(q)2") }}--}}
+{{--                                                                </strong>--}}
+{{--                                                                <ol>--}}
+{{--                                                                    <li>   {{ __("FAQ(a)2") }} </li>--}}
+{{--                                                                </ol>--}}
+{{--                                                            </li>--}}
+{{--                                                        </ul>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <!--FAQ-->
                             </div>
                         </div>

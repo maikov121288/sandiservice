@@ -6,24 +6,36 @@
                                             <div class="container-fluid">
                                                 <div class="row" data-container="container" style = "justify-content: flex-end">
                                                     <div class="moto-widget moto-widget-row__column moto-cell moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
-                                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
+                                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
                                                             <div class="moto-widget-text-content moto-widget-text-editable">
-                                                                <p class="moto-text_system_11" style="text-align: right;"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
+                                                                <p class="moto-text_system_11" style="text-align: right; display: flex"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
                                                                                                                                                                 <span class="moto-content-image-container">
-                                                                                                                                                                        <img class="moto-content-image" 
+                                                                                                                                                                        <img class="moto-content-image"
                                                                                                                                                                              data-id="184" alt="" width="30" height="30" src="{{ asset('img/icons/mt-2019-header-icon02.png') }}">
-                                                                                                                                                                </span> </span> &nbsp; <a data-action="call" class="moto-link" href="tel:0800210247">0-800-210-247</a> </p>
+                                                                                                                                                                </span> </span> &nbsp;
+                                                                    <span style = "display:inline-block; text-align: left;">
+                                                                        <a data-action="call" class="moto-link" href="tel:0800210247">0-800-210-247
+                                                                            <span style="font-size:12px; display: block">{{ __('Service support') }}</span>
+                                                                        </a>
+                                                                    </span>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="moto-widget moto-widget-row__column moto-cell moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
-                                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
+                                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
                                                             <div class="moto-widget-text-content moto-widget-text-editable">
-                                                                <p class="moto-text_system_11" style="text-align: right;"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
+                                                                <p class="moto-text_system_11" style="text-align: right; display: flex;"> <span class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-zero moto-spacing-bottom-zero moto-spacing-left-zero">
                                                                                                                                                                 <span class="moto-content-image-container">
                                                                                                                                                                         <img class="moto-content-image"
                                                                                                                                                                              data-id="184" alt="" width="30" height="30" src="{{ asset('img/icons/mt-2019-header-icon02.png') }}">
-                                                                                                                                                                </span> </span> &nbsp; <a data-action="call" class="moto-link" href="tel:0800212008">0-800-212-008</a> </p>
+                                                                                                                                                                </span> </span> &nbsp;
+                                                                    <span style = "display:inline-block; text-align: left;">
+                                                                        <a data-action="call" class="moto-link" href="tel:0800212008">0-800-212-008
+                                                                            <span style="font-size:12px; display: block">{{ __('Technical Support') }}</span>
+                                                                        </a>
+                                                                    </span>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
