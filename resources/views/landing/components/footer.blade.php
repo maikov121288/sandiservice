@@ -7,7 +7,7 @@
                 </div>
                 <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="saaa" data-visible-on="-" data-animation="">
                     <div class="moto-widget-text-content moto-widget-text-editable">
-                        <p class="moto-text_205" style="text-align: center;"> © 2020 All Rights Reserved Terms of Use and Privacy Policy. </p>
+                        <p class="moto-text_205" style="text-align: center;">© {{ date('Y') }} All Rights Reserved Terms of Use and Privacy Policy.</p>
                     </div>
                 </div>
             </div>
