@@ -23,7 +23,7 @@
                                         <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="aaas" data-visible-on="-" data-animation="">
                                             <div class="moto-widget-text-content moto-widget-text-editable">
                                                 <p class="moto-text_system_13"> <strong>
-                                                        {{ __("Call us") }}
+                                                {{ __("Monday through Friday") }}  <div class = "moto-text_system_13" style = "margin-top: 5px">{{ __("Time") }}</div>
                                                     </strong>  <!-- <a href="tel:1234567890" data-action="call" class="moto-link"><strong>(123) 456 7890</strong> </a> --> </p>
                                             </div>
                                         </div>
