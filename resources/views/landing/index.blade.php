@@ -1,4 +1,6 @@
 @extends('layouts.landing')
+@section('meta_title', __('title'))
+@section('meta_description',  __('description'))
 @section('content')
 
 <div class="page">
@@ -23,8 +25,7 @@
 
 @include('landing.components.footer')
 
-</section>
-</div>
+
 
 @include('landing.components.toTopBtn')
 
